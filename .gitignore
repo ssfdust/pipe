@@ -5,6 +5,7 @@
 *.dylib
 header
 pipe
+gin-bin
 
 # Test binary, build with `go test -c`
 *.test
@@ -19,3 +20,9 @@ pipe
 
 # IDE
 .idea/
+
+yarn.lock
+
+.bash_*
+.cache
+*.db

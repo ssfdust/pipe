@@ -3,6 +3,7 @@ module github.com/88250/pipe
 go 1.12
 
 require (
+	github.com/0xAX/notificator v0.0.0-20220220101646-ee9b8921e557 // indirect
 	github.com/88250/gulu v1.2.1
 	github.com/88250/lute v1.7.3
 	github.com/PuerkitoBio/goquery v1.8.0
@@ -11,6 +12,8 @@ require (
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/bluele/gcache v0.0.2
 	github.com/clbanning/mxj v1.8.4 // indirect
+	github.com/codegangsta/envy v0.0.0-20141216192214-4b78388c8ce4 // indirect
+	github.com/codegangsta/gin v0.0.0-20211113050330-71f90109db02 // indirect
 	github.com/denisenkom/go-mssqldb v0.0.0-20200910202707-1e08a3fab204 // indirect
 	github.com/dustin/go-humanize v1.0.0
 	github.com/elazarl/goproxy v0.0.0-20200809112317-0581fc3aee2d // indirect
@@ -27,11 +30,13 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/lib/pq v1.10.6 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/mattn/go-shellwords v1.0.12 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.18
 	github.com/mssola/user_agent v0.5.3
 	github.com/parnurzeal/gorequest v0.2.16
 	github.com/smartystreets/assertions v1.2.0 // indirect
 	github.com/ugorji/go v1.2.7 // indirect
+	github.com/urfave/cli v1.22.9 // indirect
 	github.com/vinta/pangu v3.0.0+incompatible
 	golang.org/x/crypto v0.0.0-20220518034528-6f7dac969898 // indirect
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect

@@ -1,6 +1,5 @@
 FROM node:10.15.3 as NODE_BUILD
 WORKDIR /go/src/github.com/88250/pipe/
-ADD . /go/src/github.com/88250/pipe/
 RUN cd console && npm install && npm run build && cd ../theme && npm install && npm run build && \
     rm -rf node_modules && cd ../console && rm -rf node_modules
 
